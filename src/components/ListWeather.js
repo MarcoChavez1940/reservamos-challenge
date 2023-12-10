@@ -57,7 +57,6 @@ const ListWeather = ({ name, lat, lon }) => {
         })}
       </Space>
     </div>
-
   )
 }
 
