@@ -5,6 +5,7 @@ const api = axios.create({
 });
 const appid = process.env.REACT_APP_OPENWEATHER_APPID;
 
+// Take a forecast of each day
 function is6AM(unixTimestamp) {
   const date = new Date(unixTimestamp * 1000);
 
